@@ -12,7 +12,7 @@ namespace SerialNumbersHD.Header
         public static IHeaderInfo Get()
         {
             return new HeaderInfo() { 
-                text = "Hard Drive Information", 
+                text = "Hard Disk Drive Information", 
                 maxWidth = 100, 
                 spaces = 0 
             };
