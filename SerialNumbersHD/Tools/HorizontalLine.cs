@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SerialNumbersHD.Texts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,7 +17,7 @@ namespace SerialNumbersHD.Tools
         }
 
 
-        public static void Draw(IHeaderInfo info)
+        public static void Draw(IMessage info)
         {
             string line = buildLine("*");
             Console.WriteLine(line.Substring(1, info.maxWidth));

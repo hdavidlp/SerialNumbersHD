@@ -8,8 +8,8 @@ namespace SerialNumbersHD.Texts
 {
     public interface IMessage
     {
-        string text { get; }
-        int spaces { get; }
+        string text { get; set; }
+        int spaces { get; set; }
         virtual int maxWidth { get { return text.Length; } }
     }
 }
